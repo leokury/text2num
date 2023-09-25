@@ -329,15 +329,15 @@ class OrdinalsMerger:
         if len(token) > 1 and ("º" in token or "°" in token or "ª" in token):
             out = True
 
-        if token in [
-            "primeiro",
-            "primeira",
-            "segundo",
-            "segunda",
-            "terceiro",
-            "terceira",
-        ]:
-            out = True
+        # if token in [
+        #     "primeiro",
+        #     "primeira",
+        #     "segundo",
+        #     "segunda",
+        #     "terceiro",
+        #     "terceira",
+        # ]:
+        #     out = True
         return out
 
     @staticmethod
